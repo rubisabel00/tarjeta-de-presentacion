@@ -1,0 +1,33 @@
+:root{
+    --bg-blue: #0c92d5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(192, 244, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta{
+    width: 30%;
+    height: 70vh;
+    background-color: #ffffff;
+    border: 10px solid var(--bg-blue);
+    border-radius: 4rem;
+    box-shadow: 0 0 20px var(--bg-blue);
+    position: relative;
+}
+.foot{
+    width: 100%;
+    height: 10vh;
+    background-color: var(--bg-blue);
+    border-radius: 0 0 3rem 3rem;
+    position: absolute;
+    bottom: 0;
+}
